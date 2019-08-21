@@ -1,0 +1,60 @@
+
+
+.btn {
+  min-width: 200px;
+  height: 50px;
+  border: none;
+   color: white; 
+  padding: 16px 28px;
+  margin: 10px;
+font-size: 20px;
+
+}
+
+.btn-info {
+  background-color: rgba(205, 240, 6, 0.76);
+
+}
+.btn-info:hover {
+ background-color: rgb(196, 223, 45);
+}
+
+.btn-agree {
+   background-color: rgb(8, 168, 8); 
+}
+.btn-agree:hover {
+   background-color: green; 
+}
+
+.btn-warning {
+   background-color: orange; 
+}
+
+.btn-warning:hover {
+   background-color: rgb(196, 132, 13); 
+}
+
+.btn-continue{ 
+background-color: blue;
+}
+
+.btn-continue:hover{ 
+background-color: rgb(6, 6, 175); 
+}
+
+.btn-danger{ 
+background-color: red; 
+}
+.btn-danger:hover{ 
+background-color: rgb(189, 8, 8); 
+}
+
+.btn-default{ 
+background-color: rgb(139, 126, 126); 
+}
+.btn-default:hover{ 
+background-color: rgb(114, 106, 106); 
+}
+.btn i {
+  padding-right: 2px;
+}
