@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 
-  const Button = ({text, kind="default", radius, icon,loader, ...buttonProps})=> 
+  const Button = ({text, kind="default", radius, icon,loader})=> 
   (
-    <button className={"btn btn-"+kind} {...buttonProps}
+    <button className= {"btn btn-"+kind} 
     style={{"border-radius": radius + "px" }}
     > <i className={"fa fa-"+loader+" fa-spin"}></i><i className={"fa fa-"+icon}></i>{text}</button>
     );
@@ -17,6 +17,7 @@ import './App.css';
     <Button kind="agree" radius="5" icon="bars" loader="" text="agree" />
     <Button kind="warning" radius="100" icon="trash" text="warning" />
     <Button kind="continue" radius="1" icon="home" text="continue" />
+    
     </div>
   );
 
